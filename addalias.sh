@@ -1,0 +1,1 @@
+alias cc=/./cc.sh
