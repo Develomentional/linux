@@ -1,7 +1,10 @@
 #!/bin/bash
-If ! ${1} then
+case ${1} in
+"")
 echo no directory specified.
-
-fi
+;;
+"*")
 cd ${1}
 ls --color=always ${1}
+;;
+esac

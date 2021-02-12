@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#set version here
+
+ver = 1.0.1
+
+case ${1} in
+"-v"||"v"||"V"||"-V")
+echo "version = $ver"
+;;
+*)
+
+
+# code starts here
+
+;;
+esac
