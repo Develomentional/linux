@@ -4,10 +4,10 @@
 
 ver = 1.0.1
 case ${1} in
-"-v"||"v"||"V"||"-V")
+"-v")
 echo "version = $ver"
 ;;
-"-u"||"--update")
+"-u")
 presentyn("continue")
 update
 upgrade
@@ -15,7 +15,7 @@ upgrade
 
 
 ;;
-"-d"||"--dist")
+"-d")
 update
 updatedist
 
