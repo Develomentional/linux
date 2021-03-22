@@ -1,7 +1,7 @@
 #!/bin/bash
 ver = 1.0.1
 case ${1} in
-"-v"||"v"||"V"||"-V")
+"-v")
 echo "version = $ver"
 
 ;;
